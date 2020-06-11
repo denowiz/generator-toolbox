@@ -3,8 +3,8 @@
  * of the function fn over the x.
  *
  * Example:
- *  const plus1 = (x) => x + 1
- *  iterate(plus1, 0) //=> 0, 1, 2, 3, ...
+ *  const succ = (x) => x + 1
+ *  iterate(succ, 0) //=> 0, 1, 2, 3, ...
  *
  * @param fn
  * @param x
